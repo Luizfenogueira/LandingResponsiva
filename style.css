@@ -35,10 +35,12 @@ h2 {
 
 #presentationContainer {
     padding: 2.5rem 7.5rem;
-    height: 50vh;
-
+    height: 90vh;
+    background-image: url(./img/header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+ 
 #presentation {
     width: 37.5rem;
     position: relative;
@@ -54,10 +56,20 @@ h2 {
     margin-top: .5rem;
 }
 
-.container > p { 
+.container > p {
     margin-top: 1.5rem;
 }
 
 .container > button {
     margin-top: 2rem;
+    transition: opacity 0.5s ease-in-out, transform .5s .2s;
+}
+
+.container > button:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+} 
+
+#background-gradient {
+    background: linear-gradient(180deg, #fff, #d9d9d9);
 }
