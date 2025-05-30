@@ -33,6 +33,12 @@ h2 {
     margin: 0;
 }
 
+h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
 #presentationContainer {
     padding: 2.5rem 7.5rem;
     height: 90vh;
@@ -43,7 +49,7 @@ h2 {
     justify-content: flex-start;
     align-items: center;
 }
- 
+
 #presentation {
     width: 37.5rem;
 }
@@ -55,7 +61,7 @@ h2 {
     margin-top: 4rem;
 }
 
-.qualities > img {
+.qualities>img {
     margin: 0 2.5rem;
 }
 
@@ -68,19 +74,19 @@ h2 {
     margin-top: .5rem;
 }
 
-.container > p {
+.container>p {
     margin-top: 1.5rem;
 }
 
-.container > button {
+.container>button {
     margin-top: 2rem;
     transition: opacity 0.5s ease-in-out, transform .5s .2s;
 }
 
-.container > button:hover {
+.container>button:hover {
     opacity: 0.8;
     transform: scale(1.1);
-} 
+}
 
 #background-gradient {
     background: linear-gradient(180deg, #fff, #d9d9d9);
@@ -101,7 +107,7 @@ h2 {
     flex-direction: row-reverse;
 }
 
-.articleDetails{
+.articleDetails {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -110,11 +116,11 @@ h2 {
     justify-content: space-between;
 }
 
-.articleDetails > button{
-font-size: 1rem;
+.articleDetails>button {
+    font-size: 1rem;
 }
 
-.articleContainer:nth-child(even) > .articleDetails {
+.articleContainer:nth-child(even)>.articleDetails {
     margin: 0 0 0 2.5rem;
 }
 
@@ -123,16 +129,16 @@ font-size: 1rem;
     text-align: left;
 }
 
-.footerList > ul > li {
+.footerList>ul>li {
     list-style: none;
     margin-bottom: 1rem;
 }
 
-.footerList > ul > li:last-child {
+.footerList>ul>li:last-child {
     margin-bottom: 0;
 }
 
-.footerList > ul > li:first-child {
+.footerList>ul>li:first-child {
     margin-bottom: 1.5rem;
     font-weight: 700;
 }
@@ -142,4 +148,18 @@ font-size: 1rem;
     justify-content: space-between;
     align-items: center;
     margin-top: 8.5rem;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+.gridItem>h3 {
+    margin-top: .5rem;
+}
+
+.gridItem>p {
+    margin: .5rem 0 0;
 }
