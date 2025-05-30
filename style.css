@@ -97,6 +97,10 @@ h3 {
     color: #fff;
 }
 
+.background-grey {
+background-color: #F4F5F7;
+}
+
 .articleContainer {
     display: flex;
     flex-direction: row;
@@ -162,4 +166,56 @@ h3 {
 
 .gridItem>p {
     margin: .5rem 0 0;
+}
+
+.gridContainerCompanies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.gridItemCompanies {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.company1 {
+    grid-area: 3/1;
+}
+
+.company2 {
+    grid-area: 2/2;
+}
+
+.company3 {
+    grid-area: 3/2;
+}
+
+.company4 {
+    grid-area: 1/3;
+}
+
+.company5 {
+    grid-area: 2/3;
+}
+
+.company6 {
+    grid-area: 3/3;
+}
+
+.company7 {
+    grid-area: 2/4;
+}
+
+.company8 {
+    grid-area: 3/4;
+}
+
+.company9 {
+    grid-area: 3/5;
 }
