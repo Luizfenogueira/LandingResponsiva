@@ -409,4 +409,20 @@ h3 {
         flex-direction: column;
         justify-content: center;
     }
+
+    .footerList>ul {
+        margin-top: 3rem;
+    }
+
+        .footerList>ul:first-child {
+        margin-top: 0;
+    }
+
+    .footerCopyright {
+        flex-direction: column-reverse;
+    }
+
+    .footerCopyright > div:first-child {
+        margin-top: 4rem;
+    }
 }
